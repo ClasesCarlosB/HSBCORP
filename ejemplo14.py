@@ -34,11 +34,14 @@ Metodos de las listas
 
 """
 
+vacia = []
+
 persona = ["Juan",30,3,True]
 
 numeros = [10,20,30]
 
-print("Todos los",numeros[0],
+print("Todos los",
+      numeros[0],
       "de cada mes me dan",
       numeros[1],
       "dolares para ahorrar y los", 
@@ -65,3 +68,11 @@ persona.insert(1,"Rodriguez")
 
 print(persona)
 
+cantidad = len(persona)
+
+print(cantidad)
+
+#elimino el item en la pos 2, se va la edad
+del persona[2]
+
+print(persona) 
