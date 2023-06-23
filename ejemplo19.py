@@ -7,8 +7,8 @@ son listas de listas
 
 """
 
-productos = [["fideos",100]
-             ,["yerba",800],
+productos = [["fideos",100],
+             ["yerba",800],
              ["gaseosa",500]]
 
 
