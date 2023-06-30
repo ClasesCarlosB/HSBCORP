@@ -24,3 +24,5 @@ if li < ls:
     print(pares)
 else:
     print("El limite inferior no puede ser mayor o igual \n que el limite superior!")
+    
+    
